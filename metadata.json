@@ -1,7 +1,7 @@
 {
-  "name": "clouduser-apache",
+  "name": "no-apache",
   "version": "0.1.0",
-  "author": "James A",
+  "author": "Elle K",
   "summary": "",
   "license": "Apache-2.0",
   "source": "",
@@ -24,7 +24,7 @@
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
-        "8"
+        "7"
       ]
     },
     {
@@ -36,13 +36,13 @@
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "9"
+        "8"
       ]
     },
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
-        "18.04"
+        "16.04"
       ]
     }
   ],
@@ -52,7 +52,7 @@
       "version_requirement": ">= 4.10.0 < 7.0.0"
     }
   ],
-  "pdk-version": "1.17.0",
-  "template-url": "pdk-default#1.17.0",
-  "template-ref": "tags/1.17.0-0-gd3a4319"
+  "pdk-version": "1.10.0",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git#1.10.0",
+  "template-ref": "1.10.0-0-gbba9ac3"
 }

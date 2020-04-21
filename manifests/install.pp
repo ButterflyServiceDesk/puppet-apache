@@ -1,11 +1,8 @@
-# @summary Installsthe base apache package
+# @summary 
+#   Installs the base Apache package.
 #
-# Installs the base apache package
-#
-# @example
-#   include apache::install
 class apache::install {
-  package { "${apache::install_name}": 
+  package { "${apache::install_name}":
     ensure => $apache::install_ensure,
   }
 }
